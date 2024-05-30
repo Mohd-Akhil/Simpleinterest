@@ -25,7 +25,7 @@ function App() {
     let value = e.target.value
     // console.log(!!value.match(/^[1-9*]$/));
 
-    if(!!value.match(/^[1-9]*$/)){
+    if(!!value.match(/^[0-9]*$/)){
       if (name=='principle'){
         setPrinciple(value)
         setIsPrinciple(true)
